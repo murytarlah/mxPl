@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link rel="stylesheet" href="style.css">
     <title>mxPl</title>
 </head>
@@ -26,27 +26,24 @@
                 <div class="progress-bar"></div>
             </div>
             <div class="d-flex justify-content-between align-items-center">
-                <div class="playOrder">
-                    <span class="iconify" data-icon="akar-icons:arrow-repeat"></span>
-                    <span class="iconify d-none" data-icon="ps:random"></span>
-    
-                </div>
-                <span class="previous">
-                    <span class="iconify" data-icon="fluent:previous-16-filled"></span>
-                </span>
-                <span class="play">
-                    <span class="iconify" data-icon="clarity:play-solid"></span>
-                    <span class="iconify d-none" data-icon="bi:pause-fill"></span>
-                </span>
-                <span class="next">
-                    <span class="iconify" data-icon="fluent:next-16-filled"></span>
-                </span>
-                <div class="musics">
-                    <span class="iconify" data-icon="bi:music-note-list"></span>
-                </div>
+                <button id="random" class="btn">
+                    <i class="fas fa-random"></i>
+                </btn>
+                <button id="prev" class="btn">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button id="play" class="btn play">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="next" class="btn">
+                    <i class="fas fa-forward"></i>
+                </button>
+                <button id="musics" class="btn">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
             </div>
         </div>
     </div>
-    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <!-- <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script> -->
 </body>
 </html>

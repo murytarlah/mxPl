@@ -42,17 +42,15 @@ body{
 }
 
 .controls{
-    /* position: absolute;
-    bottom: 5vh;
-    width: 100%; */
     color: white;
     padding: 10px;
 }
 
-.play{
-    /* background: coral; */
-    border-radius: 100px 100px 100px 100px;
-    width: 75px;
+.controls button{
+    color: white;
+}
+
+.controls .play{
     text-align: center;
     height: auto;
     color: coral;
@@ -61,7 +59,7 @@ body{
 }
 
 .progress{
-    background: #bbb;
+    background: #fff;
     height: 5px;
 }
 
